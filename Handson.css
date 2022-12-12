@@ -1,0 +1,242 @@
+body {
+  width: auto;
+  height: auto;
+  padding: auto;
+  margin: auto;
+}
+
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+figcaption {
+  font-family: sans-serif;
+}
+
+/* Header starts */
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  background-color: #333333;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding-right: 35px;
+}
+
+header ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header h4 {
+  font-style: sans-serif;
+  margin: 15px;
+  padding: auto;
+  padding-left: 10px;
+  font-size: 38pt;
+  width: calc(45%);
+}
+
+/* Header Ends */
+
+/* Navigation-Bar Starts */
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  color: #333333;
+  font-size: 10px solid;
+  padding-left: 100px;
+  padding-right: 35px;
+  text-decoration: none;
+  transform: translateY(25%);
+  vertical-align: center;
+  margin-top: 10px;
+  position: static;
+}
+
+.navbar .searchbox {
+  transform: translateY(-20%);
+  padding-left: 125px;
+}
+
+.navbar li a {
+  padding-top: 0px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.navbar input[type="text"] {
+  float: left;
+  border: 2px solid #333333;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 120px;
+  font-size: 9.5px;
+  vertical-align: center;
+}
+
+/* Navigation-bar Ends */
+
+/* Section-1 Starts */
+.covid {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(169, 169, 169, 0.212);
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 30px;
+  list-style-type: none;
+}
+
+.covid img {
+  width: 300px;
+  height: 250px;
+  margin: auto;
+  padding-right: 50px;
+  padding-top: 40px;
+}
+
+.covid p {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 38pt;
+}
+
+.covid li {
+  list-style-type: none;
+  font-size: 12pt;
+  padding: 50px;
+  float: right;
+  width: 70%;
+}
+/* Section-1 Ends */
+
+/* Section 2 starts */
+
+.categories1 h3::first-letter {
+  font-family: sans-serif;
+  font-size: 200%;
+  padding-left: 100px;
+}
+
+.firstimage figcaption {
+  font-style: sans-serif;
+  font-size: 70%;
+  padding: 6px;
+  text-align: center;
+}
+.secondimage figcaption {
+  font-size: 80%;
+  padding: 6px;
+  text-align: center;
+}
+.thirdimage figcaption {
+  font-size: 80%;
+  padding: 6px;
+  text-align: center;
+}
+.fourthimage figcaption {
+  font-size: 72%;
+  padding: 6px;
+  text-align: center;
+}
+.fifthimage figcaption {
+  font-size: 76%;
+  padding: 6px;
+  text-align: center;
+}
+.sixthimage figcaption {
+  font-size: 80%;
+  padding: 6px;
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 60px;
+}
+
+/* Section-2 Ends */
+
+/* Section-3 starts */
+
+.categories2 h3::first-letter {
+  font-family: sans-serif;
+  font-size: 200%;
+  padding-left: 100px;
+}
+
+.deals {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 12pt;
+  font-style: normal;
+  padding-top: 0px;
+  padding-left: 60px;
+}
+
+.deals .one {
+  background-color: #dbf3fa;
+  padding: 1px;
+  margin: 10px;
+  border: 5px #dbf3fa solid;
+}
+
+.fcategories .two {
+  background-color: #dbf3fa;
+  padding: 1px;
+  margin: 10px;
+  border: 5px #dbf3fa solid;
+}
+
+.fcategories {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 12pt;
+  padding-left: 60px;
+}
+
+/* Section-3 Ends */
+
+/* Section-4 starts */
+h6 {
+  padding-top: 5px;
+  opacity: 0.75;
+  word-spacing: 4.8px;
+  font-size: 9.5pt;
+  font-weight: lighter;
+  padding-left: 100px;
+}
+/* Section-4 Ends */
+
+/* Footer starts */
+footer h3 {
+  line-height: 0.2;
+}
+
+footer {
+  font-size: 16px;
+  line-height: 2;
+  background-color: #131a22;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 50px;
+  padding-bottom: 200px;
+  padding-top: 30px;
+}
+/* Footer Ends*/
